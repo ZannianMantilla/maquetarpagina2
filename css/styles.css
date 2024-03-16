@@ -11,7 +11,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url(/img/img-noise-480x800\ \(1\).png); 
+    background: url(./background.png); 
 }
 
 header {
@@ -81,7 +81,7 @@ header {
 
 
 .text {
-    background: url(/img/imagen1.jpg) center/cover;
+    background: url(./imagen1.jpg) center/cover;
     padding: 10px;
     width: 52%;
     height: 500px;
@@ -377,14 +377,14 @@ header {
 }
 
 .contenedori_1 {
-    background: url(/img/ima1.png);
+    background: url(./ima1.png);
     width: 550px;
     height: 350px;
     display: flex;
     flex-direction: column;
 }
 .contenedori_dos {
-    background: url(/img/ima2.png);
+    background: url(./ima2.png);
     width: 550px;
     height: 350px;
     display: flex;
@@ -392,7 +392,7 @@ header {
 }
 
 .contenedori_tres {
-    background: url(/img/ima3.png);
+    background: url(./ima3.png);
     width: 550px;
     height: 350px;
     display: flex;
@@ -400,7 +400,7 @@ header {
 }
 
 .contenedori_cuatro {
-    background: url(/img/ima4.png);
+    background: url(./ima4.png);
     width: 550px;
     height: 350px;
     display: flex;
@@ -427,7 +427,7 @@ header {
 }
 
 .contenedori_2 {
-    background: url(/img/ima1.png);
+    background: url(./ima1.png);
     width: 550px;
     height: 350px;
     display: flex;
