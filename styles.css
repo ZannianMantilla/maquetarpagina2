@@ -11,7 +11,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url(./background.png); 
+    background: url(/img1/fondo.png); 
 }
 
 header {
@@ -25,7 +25,7 @@ header {
     border-bottom: 2px solid #fff;
 }
 
-.menu-icon {
+.menu-icono {
     margin-left: 60px;
     color: rgb(217, 255, 0);
     display: flex;
@@ -61,8 +61,8 @@ header {
     cursor: pointer;
 }
 
-/* -------------SECCION 1 ------------*/
-.Seccion_1 {
+/* Presentacion */
+.Pres {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,11 +81,11 @@ header {
 
 
 .text {
-    background: url(./imagen1.jpg) center/cover;
+    background: url(/img1/imgbackground.jpg) center/cover;
     padding: 10px;
     width: 52%;
     height: 500px;
-    opacity: 50%;
+    opacity: 35%;
 }
 
 .text p{
@@ -105,13 +105,13 @@ header {
     -webkit-text-stroke-color:  rgb(217, 255, 0);
 }
 
-.textsec_uno{
+.textsec_1{
     margin-top: -200px;
     margin-left: 310px;
 }
 
-/* -------------SECCION 2 ------------*/
-.Seccion_2 {
+/* INDICE */
+.INDICE {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -148,23 +148,23 @@ header {
     width: 1200px;
 }
 
-.imagen_g {
+.imagen_INDICE {
     position: absolute;
     bottom: 0; /* Coloca la imagen en la parte inferior */
     left: 0; /* Coloca la imagen en la parte izquierda */
     margin-bottom: 60px;
 }
 
-.imagen_g2 {
+.imagen_INDICE2 {
     position: absolute;
     top: 0; /* Coloca la imagen en la parte inferior */
     right: 0; /* Coloca la imagen en la parte izquierda */
     margin-top: 60px;
 }
 
-/* -------------SECCION 2 ------------*/
+/* SHOP */
 
-.Seccion_3 {
+.SHOP {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,7 +174,7 @@ header {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.contenedor_cards{
+.container_cards{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,7 +184,7 @@ header {
 
 }
 
-.titulo {
+.T_SHOP {
     color:  rgb(217, 255, 0);
     text-align: center;
     text-align: center;
@@ -195,7 +195,7 @@ header {
     width: 600px;
     height: 200px;
 }
-.titulo span{
+.T_SHOP span{
     color: #ffffff00;
     text-align: center;
     text-align: center;
@@ -212,7 +212,7 @@ header {
 .Sec3_right {
 
     display: flex;
-    flex-direction: column; /* Acomoda los elementos en columna */
+    flex-direction: column; 
     align-items: center;
     width: 400px;
 
@@ -220,65 +220,57 @@ header {
 }
 .Sec3_left{
     display: flex;
-    flex-direction: column; /* Acomoda los elementos en columna */
+    flex-direction: column; 
     align-items: center;
 
 
 }
-
 .Sec3_right {
     margin-top: 130px;
 }
-
 .card_Im1,
 .card_Im2 {
     display: flex;
-    flex-direction: column; /* Cambia la dirección de las cartas a columna */
-    justify-content: flex-start; /* Alinea el contenido en la parte superior */
-    align-items: flex-start; /* Alinea el contenido a la izquierda */
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start;
     margin: 20px;
     position: relative;
 }
-
 .card_Im1 img,
 .card_Im2 img {
     height: 400px;
     width: 500px;
     opacity: 50%;
-    max-width: 290px; /* Establece un máximo de ancho para las imágenes */
-    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga de las cartas */
+    max-width: 290px; 
+    overflow: hidden; 
 }
-
-.product-card {
+.producto-card {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Alinea el contenido a la izquierda */
+    align-items: flex-start; 
 }
-
-.product-details {
+.producto-detalles {
     display: flex;
     flex-direction: column;
     width: 290px;
-    align-items: flex-start; /* Alinea el contenido a la izquierda */
+    align-items: flex-start; 
     margin-top: 5px;
 }
-
-.product-title {
-    font-size: 15px; /* Ajusta el tamaño del título según tus necesidades */
-    margin-bottom: 5px; /* Espacio entre el título y el precio */
+.producto-T {
+    font-size: 15px; 
+    margin-bottom: 5px; 
     letter-spacing: 0.2em;
     font-family: Impact, fantasy;
     font-weight: 800;
     margin-top: 0;
     color: rgb(255, 255, 255);
 }
-
-.product-price {
-    font-size: 12px; /* Ajusta el tamaño del precio según tus necesidades */
+.producto-precio {
+    font-size: 16px; 
     margin-top: 1px;
     color: rgb(255, 255, 255);
 }
-
 .add-to-cart-button {
     background-color: transparent;
     color: rgb(217, 255, 0);
@@ -291,7 +283,6 @@ header {
     margin-top: -48px; /* Coloca el botón en la esquina inferior */
     align-self: flex-end; /* Alinea el botón a la derecha dentro de su contenedor */
 }
-
 .Contenedor_dos{
     display: flex;
     background-color: rgba(0, 255, 255, 0);
@@ -303,15 +294,13 @@ header {
     margin-top: 100px;
 
 }
-
-.flecha{
+.ARROW{
     color:rgb(217, 255, 0) ;
 }
 
-.flecha_texto{
+.ARROW_TEXT{
     color: #fff;
 }
-
 .Contenedor_tres{
     display: flex;
     background-color: rgba(0, 255, 255, 0);
@@ -323,7 +312,7 @@ header {
     margin-top: 100px;
 
 }
-.contenedort_texto{
+.CONTAINER_TEXT{
     color: #ffffff00;
     align-items: center;
     justify-content: center;
@@ -361,12 +350,6 @@ header {
     height: 150px;
     margin: 20px;
 }
-
-
-/* -------------------------contenedor cinco-------------------------------------- */
-
-
-
 .contenedor_cinco {
     display: flex;
     flex-direction: column;
@@ -377,37 +360,37 @@ header {
 }
 
 .contenedori_1 {
-    background: url(./ima1.png);
+    background: url(img2/ropa1.png);
     width: 550px;
     height: 350px;
     display: flex;
     flex-direction: column;
 }
-.contenedori_dos {
-    background: url(./ima2.png);
-    width: 550px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-}
-
-.contenedori_tres {
-    background: url(./ima3.png);
+.contenedori_2 {
+    background: url(img2/ropa2.png);
     width: 550px;
     height: 350px;
     display: flex;
     flex-direction: column;
 }
 
-.contenedori_cuatro {
-    background: url(./ima4.png);
+.contenedori_3 {
+    background: url(img2/ropa3.png);
     width: 550px;
     height: 350px;
     display: flex;
     flex-direction: column;
 }
 
-.contenido_1 {
+.contenedori_4 {
+    background: url(img2/ropa4.png);
+    width: 550px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.centrado_1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -426,7 +409,7 @@ header {
     width: 130px;
 }
 
-.contenedori_2 {
+.contenedori_segundo {
     background: url(./ima1.png);
     width: 550px;
     height: 350px;
@@ -434,17 +417,13 @@ header {
     flex-direction: column;
 }
 
-.contenedor_imagenr{
+.contenedor_imagenizq{
     display: flex;
     flex-direction: row; 
     background-color: aqua;
 }
 
-.contenedor_imagenl{
-    display: flex;
-    flex-direction: row; 
-    background-color: aqua;
-}
+
 
 .parrafo_cinco{
     text-align: center;
@@ -458,17 +437,18 @@ header {
     font-size: 20px;
     color: rgb(217, 255, 0);
 }
-/* 
------------------------------------CONTENEDOR-SEIS--------------------------------------------------------------------- */
 
-.contenedor_seis{
+
+/* diseñadores */
+
+.diseño{
     background-color: rgba(0, 255, 255, 0);
     width: 1200px;
     height: auto; /* Ajusta la altura según tus necesidades */
     align-content: center;
     position: relative; /* Añade esta propiedad */
 }
-.titulo_seis{
+.T_DISEÑO{
     text-align: center;
     color: #ffffff00;
     align-items: center;
@@ -481,7 +461,7 @@ header {
     -webkit-text-stroke-color:  rgb(217, 255, 0);
 }
 
-.parrafo_seis{
+.p_diseño{
     display: flex;
     width: 1200px;
     align-items: center;
@@ -489,15 +469,14 @@ header {
     height: auto;
 }
 
-.textop_seis{
+.text_diseño{
     text-align: center;
     color: #fff;
     font-size: 20px;
     font-weight: 900;
     width: 1000px;
 }
-
-.boton_seis{
+.btn_diseño{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -507,7 +486,7 @@ margin-bottom: 100px;
 
 }
 
-.estilob_seis{
+.style_diseño{
 background-color: transparent;
 color: rgb(217, 255, 0);
 border-color: rgb(217, 255, 0);
@@ -521,8 +500,9 @@ text-transform: uppercase;
 }
 
 
-/* ------------------------------CONTENEDOR_SIETE----------------------------------------- */
-.contenedor_siete{
+/* form */
+
+.container_form{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -555,7 +535,7 @@ text-transform: uppercase;
     width: 300px;
     height: 300px;
 }
-.formg_g {
+.formg_imagen1 {
     width: 320px;
     height: 100px;
     margin-left: -60%;
@@ -564,14 +544,14 @@ text-transform: uppercase;
     top: 0; /* position at the top */
     left: 0; /* position at the left */
 }
-.contenedor_p{
+.p_container{
     display: flex;
     width: 200px;
     justify-content: center;
     align-items: flex-start;
 
 }
-.parra_1{
+.par{
     text-align: center;
     font-size: 50px;
     font-weight: 900;
@@ -602,16 +582,16 @@ text-transform: uppercase;
 .inputf::placeholder {
     color: #000000;
 }
-.parra_2{
+.par1{
     text-align: center;
     width: 250px;
 }
 
 
 
-/* -----------------------FOOOTER_-------------------------------- */
+/* footer */
 
-.container_f{
+.footer_container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -622,7 +602,7 @@ text-transform: uppercase;
     height: 500px;
 }
 
-.parrafos{
+.p_footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -630,14 +610,14 @@ text-transform: uppercase;
     background-color: rgba(165, 42, 42, 0);
 }
 
-.p_uno{
+.p_1{
     width: auto;
     height: auto;
     background-color: rgba(255, 239, 239, 0);   
     margin-left: 100px;
 }
 
-.titulo_p{
+.T_FOOTER{
     text-align: start;
     color:rgb(217, 255, 0); ;
     font-size: 30px;
@@ -650,7 +630,7 @@ text-transform: uppercase;
     color: #fff;
 }
 
-.Copyright{
+.Copy{
     width: auto;
     display: flex;
     margin-top: 90px;
