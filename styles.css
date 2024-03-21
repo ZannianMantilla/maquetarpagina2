@@ -8,6 +8,8 @@
     padding: 0;
 }
 
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -640,4 +642,47 @@ text-transform: uppercase;
     font-size: 30px;
     font-weight: 600;
     
+}
+
+/* Estilos generales para dispositivos de pantalla grande */
+/* ... Tus estilos generales aquí ... */
+
+/* Media queries para dispositivos más pequeños */
+
+/* Para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    /* Estilos específicos para dispositivos móviles */
+    /* Por ejemplo, cambiar el diseño del encabezado o ajustar el tamaño de fuente */
+    header {
+        padding: 0.3rem;
+    }
+
+    .menu-icono {
+        margin-left: 20px;
+    }
+
+    .icons i {
+        font-size: 1.1rem;
+    }
+
+    /* Ajustar estilos para otras secciones según sea necesario */
+}
+
+/* Para tablets, como el iPad */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos específicos para tabletas */
+    /* Por ejemplo, ajustar el tamaño de ciertos elementos o cambiar el diseño */
+    header {
+        padding: 0.5rem;
+    }
+
+    .menu-icono {
+        margin-left: 30px;
+    }
+
+    .icons i {
+        font-size: 1.3rem;
+    }
+
+    /* Ajustar estilos para otras secciones según sea necesario */
 }
